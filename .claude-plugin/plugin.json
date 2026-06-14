@@ -1,5 +1,5 @@
 {
-  "name": "skill-vetter",
+  "name": "skill-provenance",
   "version": "0.1.0",
   "description": "Vet a third-party agent skill before you install or run it: provenance, license, pinning, and dangerous capabilities (shell, network, secrets, file writes), with a RUN / REVIEW / DO NOT RUN verdict. Read-only.",
   "author": { "name": "Solid State", "url": "https://solidstate.cc" },

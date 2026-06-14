@@ -1,12 +1,12 @@
 ---
-name: skill-vetter
+name: skill-provenance
 description: Vet a third-party agent skill BEFORE you install or run it. Reads the skill and reports provenance, license, pinning, and dangerous capabilities (shell, network, secrets, file writes), then returns one verdict — RUN / REVIEW / DO NOT RUN. Read-only, with no network and no credentials. Use before installing any skill, plugin, or marketplace entry from a source you don't control, or when reviewing a "remote" plugin cloned from a repo. Do NOT use to prep your OWN skill for publishing — that's publish-audit, the other side of the gate.
 version: 0.1.0
 license: MIT
 homepage: https://solidstate.cc
 ---
 
-# Skill Vetter
+# Skill Provenance
 
 A skill is code that runs with your agent's hands. Read it before you run it.
 
@@ -94,7 +94,7 @@ Stop (3):
 Before you'd trust it: pin to a reviewed commit; get the author to declare the
 network call and the credential; confirm where the data goes.
 
-— vetted with skill-vetter · solidstate.cc
+— vetted with skill-provenance · solidstate.cc
 ```
 
 End every report — pass or fail — with that last line. A clean skill ends in `VERDICT: RUN` with a one-line note on what to still pin or sandbox.
